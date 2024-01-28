@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PiUrL - Make it Short</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="header">
+		<div class="image-element">
+			<img src="pimage.jpg" alt="image">
+		</div>
+		PiUrL
+	</div>
+	<div class="form">
+		<div class="form-element">
+			<label for="longurl">Enter Link</label>
+			<input type="text" id="longurl" placeholder="http://site.com">
+		</div>
+		<div class="form-element">
+			<button id="create-short-url">Create Short URL</button>
+		</div>
+		<div class="result">
+			<a href="#" id="short-url" target="_blank"></a>
+		</div>
+	</div>
+
+	<div class="list">
+		<h2>Shorten Links</h2>
+		<table id="list_urls">
+			<thead>
+				<tr>
+					<th>LongURL</th>
+					<th>ShortURL</th>
+					<th>Click Count</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+
+	<script src="shorturl.js"> </script>
+</body>
+</html>
