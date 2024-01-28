@@ -1,4 +1,4 @@
-const host = "https://shorten-url-zcsq.onrender.com/";
+const host = "https://piurl-api.onrender.com/";
 
 		//creating the short url
 		document.querySelector("#create-short-url").addEventListener("click",function(){
